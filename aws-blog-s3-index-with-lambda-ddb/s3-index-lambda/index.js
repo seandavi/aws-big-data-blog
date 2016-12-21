@@ -1,6 +1,6 @@
 var AWS = require('aws-sdk');
-var s3 = new AWS.S3(2006-03-01);
-var dynamodb = new AWS.DynamoDB('2012-08-10');
+var s3 = new AWS.S3('sdavis.nci.nih.gov');
+var dynamodb = new AWS.DynamoDB('sdavis.nci.nih.gov');
 
 var keyRegex = /[^/]+\/([^/]+)\/[^/]+\/([^-]+)-([^.]+).data/;
  
